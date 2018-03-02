@@ -1,0 +1,10 @@
+c:\users\damla\source\repos\LBox_Menu_Example\LBox_Menu_Example\bin\Debug\LBox_Menu_Example.exe.config
+c:\users\damla\source\repos\LBox_Menu_Example\LBox_Menu_Example\bin\Debug\LBox_Menu_Example.exe
+c:\users\damla\source\repos\LBox_Menu_Example\LBox_Menu_Example\bin\Debug\LBox_Menu_Example.pdb
+c:\users\damla\source\repos\LBox_Menu_Example\LBox_Menu_Example\obj\Debug\LBox_Menu_Example.csprojResolveAssemblyReference.cache
+c:\users\damla\source\repos\LBox_Menu_Example\LBox_Menu_Example\obj\Debug\LBox_Menu_Example.Form1.resources
+c:\users\damla\source\repos\LBox_Menu_Example\LBox_Menu_Example\obj\Debug\LBox_Menu_Example.Properties.Resources.resources
+c:\users\damla\source\repos\LBox_Menu_Example\LBox_Menu_Example\obj\Debug\LBox_Menu_Example.csproj.GenerateResource.Cache
+c:\users\damla\source\repos\LBox_Menu_Example\LBox_Menu_Example\obj\Debug\LBox_Menu_Example.csproj.CoreCompileInputs.cache
+c:\users\damla\source\repos\LBox_Menu_Example\LBox_Menu_Example\obj\Debug\LBox_Menu_Example.exe
+c:\users\damla\source\repos\LBox_Menu_Example\LBox_Menu_Example\obj\Debug\LBox_Menu_Example.pdb
