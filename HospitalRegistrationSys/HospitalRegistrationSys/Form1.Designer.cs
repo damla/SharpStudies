@@ -108,6 +108,7 @@
             this.btnRemove.TabIndex = 7;
             this.btnRemove.Text = "REMOVE PATIENT FROM LIST";
             this.btnRemove.UseVisualStyleBackColor = true;
+            this.btnRemove.Click += new System.EventHandler(this.btnRemove_Click);
             // 
             // lbPatients
             // 

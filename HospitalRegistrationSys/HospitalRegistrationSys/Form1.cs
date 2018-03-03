@@ -58,5 +58,13 @@ namespace HospitalRegistrationSys
             txtAge.Text = "";
             txtClinic.Text = "";
         }
+
+        private void btnRemove_Click(object sender, EventArgs e)
+        {
+            if (lbPatients.SelectedIndex >= 0)
+                lbPatients.Items.RemoveAt(lbPatients.SelectedIndex); //If the list is not empty, delete.
+            else
+                MessageBox.Show("Select item first!");
+        }
     }
 }
