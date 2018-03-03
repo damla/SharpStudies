@@ -31,7 +31,7 @@ namespace LBox_Menu_Example
 
         private void listNumbers_SelectedIndexChanged(object sender, EventArgs e)
         {
-            int num = Convert.ToInt32(listNumbers.SelectedItem);
+            int num = Convert.ToInt32(listNumbers.SelectedItem); //we won't use this one.
         }
 
         private void hELPToolStripMenuItem_Click(object sender, EventArgs e)
