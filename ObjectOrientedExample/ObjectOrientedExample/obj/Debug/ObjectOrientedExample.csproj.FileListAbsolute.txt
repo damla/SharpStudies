@@ -1,0 +1,10 @@
+C:\Users\Damla\source\repos\ObjectOrientedExample\ObjectOrientedExample\bin\Debug\ObjectOrientedExample.exe.config
+C:\Users\Damla\source\repos\ObjectOrientedExample\ObjectOrientedExample\bin\Debug\ObjectOrientedExample.exe
+C:\Users\Damla\source\repos\ObjectOrientedExample\ObjectOrientedExample\bin\Debug\ObjectOrientedExample.pdb
+C:\Users\Damla\source\repos\ObjectOrientedExample\ObjectOrientedExample\obj\Debug\ObjectOrientedExample.csprojResolveAssemblyReference.cache
+C:\Users\Damla\source\repos\ObjectOrientedExample\ObjectOrientedExample\obj\Debug\ObjectOrientedExample.Form1.resources
+C:\Users\Damla\source\repos\ObjectOrientedExample\ObjectOrientedExample\obj\Debug\ObjectOrientedExample.Properties.Resources.resources
+C:\Users\Damla\source\repos\ObjectOrientedExample\ObjectOrientedExample\obj\Debug\ObjectOrientedExample.csproj.GenerateResource.Cache
+C:\Users\Damla\source\repos\ObjectOrientedExample\ObjectOrientedExample\obj\Debug\ObjectOrientedExample.csproj.CoreCompileInputs.cache
+C:\Users\Damla\source\repos\ObjectOrientedExample\ObjectOrientedExample\obj\Debug\ObjectOrientedExample.exe
+C:\Users\Damla\source\repos\ObjectOrientedExample\ObjectOrientedExample\obj\Debug\ObjectOrientedExample.pdb
