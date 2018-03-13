@@ -40,6 +40,7 @@
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.dELETEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dUPLICATEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.txtCourseNo = new System.Windows.Forms.TextBox();
             this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -120,28 +121,37 @@
             this.dELETEToolStripMenuItem,
             this.dUPLICATEToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(245, 120);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(207, 76);
             this.contextMenuStrip1.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStrip1_Opening);
             // 
             // dELETEToolStripMenuItem
             // 
             this.dELETEToolStripMenuItem.Name = "dELETEToolStripMenuItem";
-            this.dELETEToolStripMenuItem.Size = new System.Drawing.Size(244, 36);
+            this.dELETEToolStripMenuItem.Size = new System.Drawing.Size(206, 36);
             this.dELETEToolStripMenuItem.Text = "DELETE";
             this.dELETEToolStripMenuItem.Click += new System.EventHandler(this.dELETEToolStripMenuItem_Click);
             // 
             // dUPLICATEToolStripMenuItem
             // 
             this.dUPLICATEToolStripMenuItem.Name = "dUPLICATEToolStripMenuItem";
-            this.dUPLICATEToolStripMenuItem.Size = new System.Drawing.Size(244, 36);
+            this.dUPLICATEToolStripMenuItem.Size = new System.Drawing.Size(206, 36);
             this.dUPLICATEToolStripMenuItem.Text = "DUPLICATE";
             this.dUPLICATEToolStripMenuItem.Click += new System.EventHandler(this.dUPLICATEToolStripMenuItem_Click);
+            // 
+            // txtCourseNo
+            // 
+            this.txtCourseNo.Location = new System.Drawing.Point(60, 246);
+            this.txtCourseNo.Name = "txtCourseNo";
+            this.txtCourseNo.Size = new System.Drawing.Size(213, 31);
+            this.txtCourseNo.TabIndex = 8;
+            this.txtCourseNo.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(589, 472);
+            this.Controls.Add(this.txtCourseNo);
             this.Controls.Add(this.listCourses);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.cmbLecturer);
@@ -172,6 +182,7 @@
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.ToolStripMenuItem dELETEToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem dUPLICATEToolStripMenuItem;
+        private System.Windows.Forms.TextBox txtCourseNo;
     }
 }
 

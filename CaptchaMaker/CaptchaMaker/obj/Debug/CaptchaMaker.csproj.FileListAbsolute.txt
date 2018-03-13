@@ -1,0 +1,10 @@
+c:\users\damla\source\repos\CaptchaMaker\CaptchaMaker\bin\Debug\CaptchaMaker.exe.config
+c:\users\damla\source\repos\CaptchaMaker\CaptchaMaker\bin\Debug\CaptchaMaker.exe
+c:\users\damla\source\repos\CaptchaMaker\CaptchaMaker\bin\Debug\CaptchaMaker.pdb
+c:\users\damla\source\repos\CaptchaMaker\CaptchaMaker\obj\Debug\CaptchaMaker.csprojResolveAssemblyReference.cache
+c:\users\damla\source\repos\CaptchaMaker\CaptchaMaker\obj\Debug\CaptchaMaker.Form1.resources
+c:\users\damla\source\repos\CaptchaMaker\CaptchaMaker\obj\Debug\CaptchaMaker.Properties.Resources.resources
+c:\users\damla\source\repos\CaptchaMaker\CaptchaMaker\obj\Debug\CaptchaMaker.csproj.GenerateResource.Cache
+c:\users\damla\source\repos\CaptchaMaker\CaptchaMaker\obj\Debug\CaptchaMaker.csproj.CoreCompileInputs.cache
+c:\users\damla\source\repos\CaptchaMaker\CaptchaMaker\obj\Debug\CaptchaMaker.exe
+c:\users\damla\source\repos\CaptchaMaker\CaptchaMaker\obj\Debug\CaptchaMaker.pdb

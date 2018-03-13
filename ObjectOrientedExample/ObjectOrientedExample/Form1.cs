@@ -49,6 +49,12 @@ namespace ObjectOrientedExample
             c.COURSEMAIL = txtEmail.Text;
             c.COURSELECTURER = cmbLecturer.SelectedItem.ToString();
 
+            c.COURSENUMBER = txtCourseNo.Text;
+            if (c.COURSENUMBER.Equals("Invalid"))
+                MessageBox.Show("Please enter an integer as course number!");
+            
+                
+
             listCourses.Items.Add(c); //Course eklendiginde direk tostring calistirarak yazar o yuzden toString override ettik.
             //burada objeye ulasamadiginda hata verebilir. (ornek gostermisti hoca)
         }
@@ -61,7 +67,8 @@ namespace ObjectOrientedExample
         private void dELETEToolStripMenuItem_Click(object sender, EventArgs e)
         {
             if (listCourses.SelectedIndex == -1)
-                return;
+                MessageBox.Show("HATA");
+             else   
             listCourses.Items.RemoveAt(listCourses.SelectedIndex);
         }
 
@@ -70,6 +77,11 @@ namespace ObjectOrientedExample
             if (listCourses.SelectedIndex == -1)
                 return;
             listCourses.Items.Add(listCourses.SelectedItem);
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
