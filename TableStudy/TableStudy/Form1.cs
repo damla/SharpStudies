@@ -27,6 +27,19 @@ namespace TableStudy
 
             lvInfo.Items.Add(row); // ListView'imiza eklemis olduk.
         }
+
+        private void dELETEToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            for(int i= lvInfo.SelectedIndices.Count-1; i>=0; i--) // -1 olmasinin sebebi bize index lazim yani sifira kadar gidebilmeli.
+            {
+                lvInfo.Items.RemoveAt(lvInfo.SelectedIndices[i]); // sectigi index kadarini sildik.
+            }
+        }
+
+        private void dUPLICATEToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 
@@ -40,5 +53,8 @@ namespace TableStudy
  * 
  * Listview icin ozelliklerden gorunum kismindaki GridLines(cizgiler) ve FullRowSelect(butun satiri seciyor) ayarlarini true yaptik.
  * Simdi update,login ve delete gibi ayarlarin yapilabilmesi icin context menu strip ekliyoruz.
+ * 
+ * DELETE: Burada birden fazla item silinebilecegi dusunulerek silerken ilk index kaymasini engellemek icin
+ * sondan basa dogru for dongusunu saydirarak siliyoruz. 0. indexe kadar gelebilmesi icin sayisi -1 yaptik.
  * 
  */

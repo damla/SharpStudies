@@ -37,18 +37,24 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.ADDRESS = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.AGE = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.ColumnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.dELETEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dUPLICATEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.uPDATEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.lOGINASToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox1.SuspendLayout();
+            this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // lvInfo
             // 
             this.lvInfo.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader1,
-            this.ADDRESS,
-            this.AGE});
+            this.columnHeader2,
+            this.ColumnHeader3});
+            this.lvInfo.ContextMenuStrip = this.contextMenuStrip1;
             this.lvInfo.FullRowSelect = true;
             this.lvInfo.GridLines = true;
             this.lvInfo.Location = new System.Drawing.Point(12, 112);
@@ -115,11 +121,50 @@
             // 
             this.columnHeader1.Text = "NAME";
             // 
+            // columnHeader2
+            // 
+            this.columnHeader2.Text = "ADDRESS";
+            // 
+            // ColumnHeader3
+            // 
+            this.ColumnHeader3.Text = "AGE";
+            // 
             // contextMenuStrip1
             // 
             this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(32, 32);
+            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.dELETEToolStripMenuItem,
+            this.dUPLICATEToolStripMenuItem,
+            this.uPDATEToolStripMenuItem,
+            this.lOGINASToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(245, 48);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(245, 192);
+            // 
+            // dELETEToolStripMenuItem
+            // 
+            this.dELETEToolStripMenuItem.Name = "dELETEToolStripMenuItem";
+            this.dELETEToolStripMenuItem.Size = new System.Drawing.Size(244, 36);
+            this.dELETEToolStripMenuItem.Text = "DELETE";
+            this.dELETEToolStripMenuItem.Click += new System.EventHandler(this.dELETEToolStripMenuItem_Click);
+            // 
+            // dUPLICATEToolStripMenuItem
+            // 
+            this.dUPLICATEToolStripMenuItem.Name = "dUPLICATEToolStripMenuItem";
+            this.dUPLICATEToolStripMenuItem.Size = new System.Drawing.Size(244, 36);
+            this.dUPLICATEToolStripMenuItem.Text = "DUPLICATE";
+            this.dUPLICATEToolStripMenuItem.Click += new System.EventHandler(this.dUPLICATEToolStripMenuItem_Click);
+            // 
+            // uPDATEToolStripMenuItem
+            // 
+            this.uPDATEToolStripMenuItem.Name = "uPDATEToolStripMenuItem";
+            this.uPDATEToolStripMenuItem.Size = new System.Drawing.Size(206, 36);
+            this.uPDATEToolStripMenuItem.Text = "UPDATE";
+            // 
+            // lOGINASToolStripMenuItem
+            // 
+            this.lOGINASToolStripMenuItem.Name = "lOGINASToolStripMenuItem";
+            this.lOGINASToolStripMenuItem.Size = new System.Drawing.Size(206, 36);
+            this.lOGINASToolStripMenuItem.Text = "LOGIN AS..";
             // 
             // Form1
             // 
@@ -133,6 +178,7 @@
             this.Text = "Form1";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.contextMenuStrip1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -147,9 +193,13 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.ColumnHeader columnHeader1;
-        private System.Windows.Forms.ColumnHeader ADDRESS;
-        private System.Windows.Forms.ColumnHeader AGE;
+        private System.Windows.Forms.ColumnHeader columnHeader2;
+        private System.Windows.Forms.ColumnHeader ColumnHeader3;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem dELETEToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem dUPLICATEToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem uPDATEToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem lOGINASToolStripMenuItem;
     }
 }
 
