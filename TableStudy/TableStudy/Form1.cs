@@ -30,7 +30,7 @@ namespace TableStudy
 
         private void dELETEToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            for(int i= lvInfo.SelectedIndices.Count-1; i>=0; i--) // -1 olmasinin sebebi bize index lazim yani sifira kadar gidebilmeli.
+            for (int i = lvInfo.SelectedIndices.Count - 1; i >= 0; i--) // -1 olmasinin sebebi bize index lazim yani sifira kadar gidebilmeli.
             {
                 lvInfo.Items.RemoveAt(lvInfo.SelectedIndices[i]); // sectigi index kadarini sildik.
             }
@@ -38,7 +38,16 @@ namespace TableStudy
 
         private void dUPLICATEToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            string[] cols = new String[3];
+            for (int i = 0; i <= lvInfo.SelectedItems.Count; i++)
+            {
+                cols[0] = lvInfo.SelectedItems[i].SubItems[0].Text; //Yeni yaratilan sutunlarimizin herbiri icin sirasiyla kopyaladigimiz name'leri cektik.
+                cols[1] = lvInfo.SelectedItems[i].SubItems[1].Text;//addressleri cektik.
+                cols[2] = lvInfo.SelectedItems[i].SubItems[2].Text;//ageleri cektik.
 
+                ListViewItem lvi = new ListViewItem(cols);
+                lvInfo.Items.Add(lvi);
+            }
         }
     }
 }
@@ -57,4 +66,13 @@ namespace TableStudy
  * DELETE: Burada birden fazla item silinebilecegi dusunulerek silerken ilk index kaymasini engellemek icin
  * sondan basa dogru for dongusunu saydirarak siliyoruz. 0. indexe kadar gelebilmesi icin sayisi -1 yaptik.
  * 
+ * DUPLICATE: Yeni koyacagimiz sutunlari temsilen cols adinda bir 3 elemanli string arrayi olusturduk.
+ * Daha sonra neyi sectiysek onu duplicate edip yerlestirebilmemiz icin for dongusu olusturduk. Satir 
+ * sayisi yine 1'den fazla olabilecegi icin selected items'a(selected indices'de kullanilabilir) kadar saydirdik. 
+ * DIKKAT! Burada selected indices degil items kullandik cunku itemlarin icindeki stringleri kopyalayacagiz. 
+ * Cols yani yeni columnlarimizi olusturacak string dizimize tek tek kopyaladiklarimizi eklemeye basliyoruz.
+ * ornek: cols[0]=lvInfo.SelectedItems[i].SubItems[0].Text; derken ilk sutun olan name sutununu yaratiyoruz.
+ * SelectedItems[i].SubItems[0] dedigimizde, 0.indexten baslayarak secilen itemleri dolasip icindeki 0. subitemleri buluyoruz.
+ * Yani, secilen butun listview itemlerinin 0.columnuna denk gelen rowlarini cekiyoruz. String arrayimize bunlari
+ * cektikten sonra listview itemi olusturup icine cols koyduk ardindan o itemi listview'imiza ekledik.
  */
