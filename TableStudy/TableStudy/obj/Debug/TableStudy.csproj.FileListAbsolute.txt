@@ -1,0 +1,10 @@
+C:\Users\Damla\source\repos\TableStudy\TableStudy\bin\Debug\TableStudy.exe.config
+C:\Users\Damla\source\repos\TableStudy\TableStudy\bin\Debug\TableStudy.exe
+C:\Users\Damla\source\repos\TableStudy\TableStudy\bin\Debug\TableStudy.pdb
+C:\Users\Damla\source\repos\TableStudy\TableStudy\obj\Debug\TableStudy.csprojResolveAssemblyReference.cache
+C:\Users\Damla\source\repos\TableStudy\TableStudy\obj\Debug\TableStudy.Form1.resources
+C:\Users\Damla\source\repos\TableStudy\TableStudy\obj\Debug\TableStudy.Properties.Resources.resources
+C:\Users\Damla\source\repos\TableStudy\TableStudy\obj\Debug\TableStudy.csproj.GenerateResource.Cache
+C:\Users\Damla\source\repos\TableStudy\TableStudy\obj\Debug\TableStudy.csproj.CoreCompileInputs.cache
+C:\Users\Damla\source\repos\TableStudy\TableStudy\obj\Debug\TableStudy.exe
+C:\Users\Damla\source\repos\TableStudy\TableStudy\obj\Debug\TableStudy.pdb

@@ -28,23 +28,35 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.lvInfo = new System.Windows.Forms.ListView();
             this.button1 = new System.Windows.Forms.Button();
             this.btnUpdate = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.ADDRESS = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.AGE = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // lvInfo
             // 
+            this.lvInfo.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader1,
+            this.ADDRESS,
+            this.AGE});
+            this.lvInfo.FullRowSelect = true;
+            this.lvInfo.GridLines = true;
             this.lvInfo.Location = new System.Drawing.Point(12, 112);
             this.lvInfo.Name = "lvInfo";
             this.lvInfo.Size = new System.Drawing.Size(739, 390);
             this.lvInfo.TabIndex = 1;
             this.lvInfo.UseCompatibleStateImageBehavior = false;
+            this.lvInfo.View = System.Windows.Forms.View.Details;
             // 
             // button1
             // 
@@ -78,12 +90,12 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "groupBox1";
             // 
-            // textBox1
+            // textBox3
             // 
-            this.textBox1.Location = new System.Drawing.Point(7, 29);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(218, 31);
-            this.textBox1.TabIndex = 0;
+            this.textBox3.Location = new System.Drawing.Point(7, 117);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(218, 31);
+            this.textBox3.TabIndex = 2;
             // 
             // textBox2
             // 
@@ -92,12 +104,22 @@
             this.textBox2.Size = new System.Drawing.Size(218, 31);
             this.textBox2.TabIndex = 1;
             // 
-            // textBox3
+            // textBox1
             // 
-            this.textBox3.Location = new System.Drawing.Point(7, 117);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(218, 31);
-            this.textBox3.TabIndex = 2;
+            this.textBox1.Location = new System.Drawing.Point(7, 29);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(218, 31);
+            this.textBox1.TabIndex = 0;
+            // 
+            // columnHeader1
+            // 
+            this.columnHeader1.Text = "NAME";
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(32, 32);
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(245, 48);
             // 
             // Form1
             // 
@@ -124,6 +146,10 @@
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.ColumnHeader columnHeader1;
+        private System.Windows.Forms.ColumnHeader ADDRESS;
+        private System.Windows.Forms.ColumnHeader AGE;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
     }
 }
 
