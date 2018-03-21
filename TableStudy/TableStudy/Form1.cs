@@ -62,6 +62,14 @@ namespace TableStudy
                                                // indexine esitledik.
         }
 
+        private void btnUpdate_Click(object sender, EventArgs e)
+        {
+            groupBox1.Visible = false;
+
+            lvInfo.Items[index].SubItems[0].Text = textBox1.Text; // Name updatelendi.
+            lvInfo.Items[index].SubItems[1].Text = textBox2.Text; // Address updatelendi.
+            lvInfo.Items[index].SubItems[2].Text = textBox3.Text; // Age updatelendi.
+        }
     }
 }
 
@@ -96,4 +104,12 @@ namespace TableStudy
  * veriyoruz. O sebeple selectedItemsin sifirinci indeksini sadece aldiriyoruz. Olusturdugumuz indexi update edene 
  * kadar -1 tutuyoruz. Update edilme sirasinda secilen indexlerin ilk elemaninin indeksini ona setliyoruz. Bu sekilde
  * button 2'ye bastigimizda update etmesini saglayacagiz. Eger birsey secili degilse -1 oldugu icin guncelleyemeyecektir.
+ * Textboxlara suanda bulunan itemleri yazdirdik. Buttona basinca yenileri yazicaz.
+ * 
+ * btnUpdate:groupBox gorunurlugunu yine false yapiyoruz cunku sadece ustune sag tiklayip contextStripten UPDATE sectigimizde
+ * bu textboxlarin gorunur olmasi gerekiyor. Button'tiklandiginda eger index -1'se hicbirseyi updateleyemeyecek.  Fakat eger index
+ * guncellenecek iteme gore set edildiyse, indexteki item secilecek ve textBoxtaki yeni yazilan bilgileri yine sub itemlere atayacak.
+ * Bu arada items[index] seklinde tek bir itemin indexini secmemiz yeterli oldu cunku bitek o degistirilecek.
+ * 
+ * 
  */
