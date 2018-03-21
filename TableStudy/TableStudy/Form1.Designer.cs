@@ -86,7 +86,7 @@
             this.uPDATEToolStripMenuItem,
             this.lOGINASToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(135, 92);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(153, 114);
             // 
             // dELETEToolStripMenuItem
             // 
@@ -112,8 +112,9 @@
             // lOGINASToolStripMenuItem
             // 
             this.lOGINASToolStripMenuItem.Name = "lOGINASToolStripMenuItem";
-            this.lOGINASToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
+            this.lOGINASToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.lOGINASToolStripMenuItem.Text = "LOGIN AS..";
+            this.lOGINASToolStripMenuItem.Click += new System.EventHandler(this.lOGINASToolStripMenuItem_Click);
             // 
             // button1
             // 

@@ -70,6 +70,15 @@ namespace TableStudy
             lvInfo.Items[index].SubItems[1].Text = textBox2.Text; // Address updatelendi.
             lvInfo.Items[index].SubItems[2].Text = textBox3.Text; // Age updatelendi.
         }
+
+        private void lOGINASToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            String name = lvInfo.SelectedItems[0].SubItems[0].Text; // ilk secilen itemin(cunku tek kisi login edilebilir)
+                                                                    // name subitemini cektik.
+            Form2 f = new Form2(name); // name'i yerlestirdik.
+            f.ShowDialog();
+            //f.Visible = true; da yapilabilir ama bu sekilde Form1 disable olmuyor.
+        }
     }
 }
 
@@ -111,5 +120,7 @@ namespace TableStudy
  * guncellenecek iteme gore set edildiyse, indexteki item secilecek ve textBoxtaki yeni yazilan bilgileri yine sub itemlere atayacak.
  * Bu arada items[index] seklinde tek bir itemin indexini secmemiz yeterli oldu cunku bitek o degistirilecek.
  * 
- * 
+ * LOGIN: [Sinava dahil degil] name adinda bi string olusturup hangi iteme tikladiysak onun name sub itemini cektik. Daha sonra yeni 
+ * form yaratip onun parametre kismina string ekledik boylece olusurken direk name yazip yeni acilan pencerede giris yapan kisminin ismi 
+ * yazacak. En son f.ShowDialog(); methodu ile formu gosterdik ve alttaki formu disable ettik.
  */
