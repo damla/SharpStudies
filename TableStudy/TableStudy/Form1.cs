@@ -41,18 +41,33 @@ namespace TableStudy
             string[] cols = new String[3];
             for (int i = 0; i <= lvInfo.SelectedItems.Count; i++)
             {
-                cols[0] = lvInfo.SelectedItems[i].SubItems[0].Text; //Yeni yaratilan sutunlarimizin herbiri icin sirasiyla kopyaladigimiz name'leri cektik.
-                cols[1] = lvInfo.SelectedItems[i].SubItems[1].Text;//addressleri cektik.
-                cols[2] = lvInfo.SelectedItems[i].SubItems[2].Text;//ageleri cektik.
+                cols[0] = lvInfo.SelectedItems[i].SubItems[0].Text; // Yeni yaratilan sutunlarimizin herbiri icin sirasiyla kopyaladigimiz name'leri cektik.
+                cols[1] = lvInfo.SelectedItems[i].SubItems[1].Text; // addressleri cektik.
+                cols[2] = lvInfo.SelectedItems[i].SubItems[2].Text; // ageleri cektik.
 
                 ListViewItem lvi = new ListViewItem(cols);
                 lvInfo.Items.Add(lvi);
             }
         }
+
+        int index = -1;
+        private void uPDATEToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            groupBox1.Visible = true; // update'e tikladigimiz gibi groupBox1 gorunur olucak.
+
+            textBox1.Text = lvInfo.SelectedItems[0].SubItems[0].Text; // textboxtan name aldik [aciklamaya bak]
+            textBox2.Text = lvInfo.SelectedItems[0].SubItems[1].Text; // address aldik.
+            textBox3.Text = lvInfo.SelectedItems[0].SubItems[2].Text; // age aldik.
+            index = lvInfo.SelectedIndices[0]; // indexi update edilene kadar -1 tuttuk. Edilince de secilen ilk itemin
+                                               // indexine esitledik.
+        }
+
     }
 }
 
 /* Listbox bunun scrollable halidir.
+ * 
+ * GroupBox1'i invisible yaotik. Ilerde update fonksiyonu cagrildiginda visible'a donucek.
  * 
  * button1 click methodunda oncelikle colonlarimizda olucak bilgileri yazip atdindan onlari list view
  * itemi yaratip icine ekledik. Daha sonra bu itemi list viewimize ekledik. Itemi satir(row) olarak dusunebiliriz.
@@ -75,4 +90,10 @@ namespace TableStudy
  * SelectedItems[i].SubItems[0] dedigimizde, 0.indexten baslayarak secilen itemleri dolasip icindeki 0. subitemleri buluyoruz.
  * Yani, secilen butun listview itemlerinin 0.columnuna denk gelen rowlarini cekiyoruz. String arrayimize bunlari
  * cektikten sonra listview itemi olusturup icine cols koyduk ardindan o itemi listview'imiza ekledik.
+ * 
+ * UPDATE: Indeximizi method disinda -1 olarak olusturduk. Tiklandiginda gorunur olabilmesi icin basta false ayarladigimiz
+ * group box1'in visibilitysini true yaptik. Burada digerlerinden farkli olarak tek bir item update etmesine izin
+ * veriyoruz. O sebeple selectedItemsin sifirinci indeksini sadece aldiriyoruz. Olusturdugumuz indexi update edene 
+ * kadar -1 tutuyoruz. Update edilme sirasinda secilen indexlerin ilk elemaninin indeksini ona setliyoruz. Bu sekilde
+ * button 2'ye bastigimizda update etmesini saglayacagiz. Eger birsey secili degilse -1 oldugu icin guncelleyemeyecektir.
  */

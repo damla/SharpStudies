@@ -95,6 +95,7 @@
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "groupBox1";
+            this.groupBox1.Visible = false;
             // 
             // textBox3
             // 
@@ -138,7 +139,7 @@
             this.uPDATEToolStripMenuItem,
             this.lOGINASToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(245, 192);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(207, 148);
             // 
             // dELETEToolStripMenuItem
             // 
@@ -157,8 +158,9 @@
             // uPDATEToolStripMenuItem
             // 
             this.uPDATEToolStripMenuItem.Name = "uPDATEToolStripMenuItem";
-            this.uPDATEToolStripMenuItem.Size = new System.Drawing.Size(206, 36);
+            this.uPDATEToolStripMenuItem.Size = new System.Drawing.Size(244, 36);
             this.uPDATEToolStripMenuItem.Text = "UPDATE";
+            this.uPDATEToolStripMenuItem.Click += new System.EventHandler(this.uPDATEToolStripMenuItem_Click);
             // 
             // lOGINASToolStripMenuItem
             // 
