@@ -8,3 +8,4 @@ C:\Users\Damla\source\repos\TableStudy\TableStudy\obj\Debug\TableStudy.csproj.Ge
 C:\Users\Damla\source\repos\TableStudy\TableStudy\obj\Debug\TableStudy.csproj.CoreCompileInputs.cache
 C:\Users\Damla\source\repos\TableStudy\TableStudy\obj\Debug\TableStudy.exe
 C:\Users\Damla\source\repos\TableStudy\TableStudy\obj\Debug\TableStudy.pdb
+C:\Users\Damla\source\repos\TableStudy\TableStudy\obj\Debug\TableStudy.Form2.resources
