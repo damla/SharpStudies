@@ -39,7 +39,7 @@ namespace TableStudy
         private void dUPLICATEToolStripMenuItem_Click(object sender, EventArgs e)
         {
             string[] cols = new String[3];
-            for (int i = 0; i <= lvInfo.SelectedItems.Count; i++)
+            for (int i = 0; i < lvInfo.SelectedItems.Count; i++)
             {
                 cols[0] = lvInfo.SelectedItems[i].SubItems[0].Text; // Yeni yaratilan sutunlarimizin herbiri icin sirasiyla kopyaladigimiz name'leri cektik.
                 cols[1] = lvInfo.SelectedItems[i].SubItems[1].Text; // addressleri cektik.
@@ -58,7 +58,7 @@ namespace TableStudy
             textBox1.Text = lvInfo.SelectedItems[0].SubItems[0].Text; // textboxtan name aldik [aciklamaya bak]
             textBox2.Text = lvInfo.SelectedItems[0].SubItems[1].Text; // address aldik.
             textBox3.Text = lvInfo.SelectedItems[0].SubItems[2].Text; // age aldik.
-            index = lvInfo.SelectedIndices[0]; // indexi update edilene kadar -1 tuttuk. Edilince de secilen ilk itemin
+              index = lvInfo.SelectedIndices[0]; // indexi update edilene kadar -1 tuttuk. Edilince de secilen ilk itemin
                                                // indexine esitledik.
         }
 

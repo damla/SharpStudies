@@ -37,7 +37,7 @@ namespace ObjectOrientedExample
         private void button1_Click(object sender, EventArgs e)
         {
             if (cmbLecturer.SelectedIndex == -1)
-                return; //?
+                return; //secili yoksa cikis
 
             //listCourses.Items.Add(listCourses.Items.Count + "--" + txtName.Text + "-" + txtEmail.Text + "-" + cmbLecturer.SelectedItem.ToString());
             //txtEmail.setText("");

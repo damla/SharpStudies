@@ -1,0 +1,6 @@
+c:\users\damla\source\repos\OpenFileDeleteFile\OpenFileDeleteFile\obj\Debug\OpenFileDeleteFile.csprojResolveAssemblyReference.cache
+c:\users\damla\source\repos\OpenFileDeleteFile\OpenFileDeleteFile\obj\Debug\OpenFileDeleteFile.Form1.resources
+c:\users\damla\source\repos\OpenFileDeleteFile\OpenFileDeleteFile\obj\Debug\OpenFileDeleteFile.Properties.Resources.resources
+c:\users\damla\source\repos\OpenFileDeleteFile\OpenFileDeleteFile\obj\Debug\OpenFileDeleteFile.Rename.resources
+c:\users\damla\source\repos\OpenFileDeleteFile\OpenFileDeleteFile\obj\Debug\OpenFileDeleteFile.csproj.GenerateResource.Cache
+c:\users\damla\source\repos\OpenFileDeleteFile\OpenFileDeleteFile\obj\Debug\OpenFileDeleteFile.csproj.CoreCompileInputs.cache

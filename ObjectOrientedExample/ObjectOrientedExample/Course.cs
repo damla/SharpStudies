@@ -11,10 +11,6 @@ namespace ObjectOrientedExample
     {
         public String COURSELECTURER { get; set; }
 
-        private String name; //Course name ozelligindeki fonksiyonlara gore name'e ataniyor.
-
-
-
         private String number; //asil degerimiz burda olucak
         private int flag; //int mi degil mi anlamak icin
         public String COURSENUMBER
@@ -34,9 +30,7 @@ namespace ObjectOrientedExample
             }
         }
 
-
-
-
+        private String name; //Course name ozelligindeki fonksiyonlara gore name'e ataniyor.
 
         public String COURSENAME
         {
