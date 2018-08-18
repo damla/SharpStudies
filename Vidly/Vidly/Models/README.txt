@@ -7,3 +7,5 @@
 *Now, we need to add Random's view into Views/Movies.
 	->If we select partial view, that means it is like a widget you can use this view in another views.
 	->But we will use a layout page. It is like a template. Default MVC project has a layout under Views/Shared/Layout.cshtml.
+	->When we added the view, it generated a code in html and c#. 
+	-> @{} is prefix for c# codes.
