@@ -9,3 +9,14 @@ C:\Users\Damla\source\repos\CalculateProgram\CalculateProgram\obj\Debug\Calculat
 C:\Users\Damla\source\repos\CalculateProgram\CalculateProgram\obj\Debug\CalculateProgram.csproj.CoreCompileInputs.cache
 C:\Users\Damla\source\repos\CalculateProgram\CalculateProgram\obj\Debug\CalculateProgram.exe
 C:\Users\Damla\source\repos\CalculateProgram\CalculateProgram\obj\Debug\CalculateProgram.pdb
+C:\Users\Damla\source\repos\SharpStudies\CalculateProgram\CalculateProgram\bin\Debug\CalculateProgram.exe.config
+C:\Users\Damla\source\repos\SharpStudies\CalculateProgram\CalculateProgram\bin\Debug\CalculateProgram.exe
+C:\Users\Damla\source\repos\SharpStudies\CalculateProgram\CalculateProgram\bin\Debug\CalculateProgram.pdb
+C:\Users\Damla\source\repos\SharpStudies\CalculateProgram\CalculateProgram\obj\Debug\CalculateProgram.csprojAssemblyReference.cache
+C:\Users\Damla\source\repos\SharpStudies\CalculateProgram\CalculateProgram\obj\Debug\CalculateProgram.Form1.resources
+C:\Users\Damla\source\repos\SharpStudies\CalculateProgram\CalculateProgram\obj\Debug\CalculateProgram.Form2.resources
+C:\Users\Damla\source\repos\SharpStudies\CalculateProgram\CalculateProgram\obj\Debug\CalculateProgram.Properties.Resources.resources
+C:\Users\Damla\source\repos\SharpStudies\CalculateProgram\CalculateProgram\obj\Debug\CalculateProgram.csproj.GenerateResource.cache
+C:\Users\Damla\source\repos\SharpStudies\CalculateProgram\CalculateProgram\obj\Debug\CalculateProgram.csproj.CoreCompileInputs.cache
+C:\Users\Damla\source\repos\SharpStudies\CalculateProgram\CalculateProgram\obj\Debug\CalculateProgram.exe
+C:\Users\Damla\source\repos\SharpStudies\CalculateProgram\CalculateProgram\obj\Debug\CalculateProgram.pdb
