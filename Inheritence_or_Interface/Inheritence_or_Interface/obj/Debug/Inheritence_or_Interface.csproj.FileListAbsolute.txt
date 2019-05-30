@@ -1,0 +1,7 @@
+C:\Users\Damla\Source\Repos\SharpStudies\Inheritence_or_Interface\Inheritence_or_Interface\bin\Debug\Inheritence_or_Interface.exe.config
+C:\Users\Damla\Source\Repos\SharpStudies\Inheritence_or_Interface\Inheritence_or_Interface\bin\Debug\Inheritence_or_Interface.exe
+C:\Users\Damla\Source\Repos\SharpStudies\Inheritence_or_Interface\Inheritence_or_Interface\bin\Debug\Inheritence_or_Interface.pdb
+C:\Users\Damla\Source\Repos\SharpStudies\Inheritence_or_Interface\Inheritence_or_Interface\obj\Debug\Inheritence_or_Interface.csprojAssemblyReference.cache
+C:\Users\Damla\Source\Repos\SharpStudies\Inheritence_or_Interface\Inheritence_or_Interface\obj\Debug\Inheritence_or_Interface.csproj.CoreCompileInputs.cache
+C:\Users\Damla\Source\Repos\SharpStudies\Inheritence_or_Interface\Inheritence_or_Interface\obj\Debug\Inheritence_or_Interface.exe
+C:\Users\Damla\Source\Repos\SharpStudies\Inheritence_or_Interface\Inheritence_or_Interface\obj\Debug\Inheritence_or_Interface.pdb
