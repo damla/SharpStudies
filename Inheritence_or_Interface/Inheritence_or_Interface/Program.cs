@@ -16,8 +16,17 @@ namespace Inheritence_or_Interface
         {
             // InterfacesIntro();
 
-            CustomerManager customerManager = new CustomerManager();
-            customerManager.Add(new SqlServerCustomerDal());
+            //CustomerManager customerManager = new CustomerManager();
+            //customerManager.Add(new SqlServerCustomerDal());
+
+            // If you want to enter data into sql and oracle at the same time;
+            ICustomerDal[] customerDals = new ICustomerDal[] { new SqlServerCustomerDal(), new OracleCustomerDal() };
+            foreach (var customerDal in customerDals)
+            {
+                customerDal.Add();
+                // Under favour of this way, adding new db will be much easier.
+                // You can just add new object with ICustomerDal interface and add it into customerDals array.
+            }
 
             Console.ReadLine();
         }
