@@ -14,9 +14,26 @@ namespace Inheritence_or_Interface
     {
         static void Main(string[] args)
         {
+            // InterfacesIntro();
+
+            CustomerManager customerManager = new CustomerManager();
+            customerManager.Add(new SqlServerCustomerDal());
+
+            Console.ReadLine();
+        }
+        private static void InterfacesIntro()
+        {
+            /* 
+             * Interfaces can not be created as below;
+             * IPerson person = new IPerson();
+             * 
+             * Can be created by the objects;
+             * IPerson person = new Customer();
+             */
             PersonManager manager = new PersonManager();
             // We used PersonManager class to organize things.
-            manager.Add(new Customer {
+            manager.Add(new Customer
+            {
                 Id = 1,
                 FirstName = "Damla",
                 LastName = "Example",
@@ -39,7 +56,6 @@ namespace Inheritence_or_Interface
             manager.Add(student);
             manager.Add(robot);
             // Another way to add objects.
-            Console.ReadLine();
         }
     }
 
